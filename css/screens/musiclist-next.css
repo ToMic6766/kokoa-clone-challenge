@@ -1,0 +1,43 @@
+.musiclist-next {
+  padding-bottom: 30px;
+}
+.musiclist-nextcolumn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px 7px rgb(91, 91, 220, 0.2);
+}
+.musiclist-nextcolumn__info {
+  display: flex;
+  flex-direction: column;
+}
+.musiclist-main__img--m {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+.info-text:first-child {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  opacity: 0.3;
+  text-align: center;
+}
+.info-text:last-child {
+  font-size: 10px;
+  font-weight: 600;
+}
+.musiclist-nextcolumn i {
+  opacity: 0.3;
+  margin-right: 5px;
+}
+
+.musiclist-main__img--xl {
+  width: 300px;
+  height: 350px;
+  margin: 50px 20px;
+  border-radius: 40px;
+  box-shadow: 3px 3px 7px 7px rgb(91, 91, 220, 0.2);
+}

@@ -1,0 +1,57 @@
+.mainmusic-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainmusic-img .play-title__info {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.mainmusic-img .play-title__info:last-child {
+  font-size: 20px;
+}
+.mainmusic-title__playtime {
+  display: flex;
+  justify-content: space-between;
+}
+.mainmusic-title__time {
+  font-size: 15px;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+}
+
+.mainmusic-title {
+  margin-bottom: 40px;
+}
+
+.submusic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 350px;
+  border-radius: 60px;
+}
+.submusic-instagram {
+  margin-left: 20px;
+  opacity: 0.4;
+}
+.submusic-mainplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.submusic-mainplay__play {
+  border-radius: 50%;
+  box-shadow: 3px 7px 7px rgb(91, 91, 220, 0.2);
+  margin: 0px 20px;
+}
+.submusic-mainplay__play i {
+  padding: 8px;
+  color: white;
+}
+.submusic-shuffle {
+  margin-right: 20px;
+  opacity: 0.4;
+}
