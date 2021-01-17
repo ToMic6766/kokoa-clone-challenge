@@ -9,7 +9,6 @@
   align-items: center;
   margin-bottom: 40px;
 }
-
 .Musiclist-main__img--lg {
   width: 120px;
   height: 120px;
@@ -38,6 +37,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .musiclist-main__btn {
   display: block;
   padding: 10px 40px;
